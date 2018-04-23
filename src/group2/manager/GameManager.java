@@ -32,7 +32,7 @@ public class GameManager {
     }
 
     public static boolean checkFinishLevel(Game game){
-        Food[][] foods = game.foods;
+        Food[][] foods = game.getFoods();
         for(int i = 0; i < Setting.N_BLOCKS_VERTICAL; i ++)
             for(int j = 0; j < Setting.N_BLOCKS_HORIZON; j ++)
                 if(foods[i][j] != null) return false;
@@ -40,12 +40,12 @@ public class GameManager {
     }
 
     public static boolean checkDead(Game game){
-        int pacman_x = game.pacman.getPosition().getX();
-        int pacman_y = game.pacman.getPosition().getY();
+        int pacman_x = game.getPacman().getPosition().getX();
+        int pacman_y = game.getPacman().getPosition().getY();
 
-        for(int i = 0; i < game.ghosts.length; i ++){
-            if (pacman_x > (game.ghosts[i].getPosition().getX() - Setting.BLOCK_SIZE/2) && pacman_x < (game.ghosts[i].getPosition().getX() + Setting.BLOCK_SIZE/2)
-                    && pacman_y > (game.ghosts[i].getPosition().getY() - Setting.BLOCK_SIZE/2) && pacman_y < (game.ghosts[i].getPosition().getY() + Setting.BLOCK_SIZE/2)
+        for(int i = 0; i < game.getGhosts().length; i ++){
+            if (pacman_x > (game.getGhosts()[i].getPosition().getX() - Setting.BLOCK_SIZE/2) && pacman_x < (game.getGhosts()[i].getPosition().getX() + Setting.BLOCK_SIZE/2)
+                    && pacman_y > (game.getGhosts()[i].getPosition().getY() - Setting.BLOCK_SIZE/2) && pacman_y < (game.getGhosts()[i].getPosition().getY() + Setting.BLOCK_SIZE/2)
                     && inGame) {
                 return true;
             }
@@ -67,9 +67,9 @@ public class GameManager {
             GameManager.storeHighScore();
         }
         else {
-            game.pacman.initPosition();
-            for(int i = 0; i < game.ghosts.length; i ++){
-                game.ghosts[i].initPosition();
+            game.getPacman().initPosition();
+            for(int i = 0; i < game.getGhosts().length; i ++){
+                game.getGhosts()[i].initPosition();
             }
         }
 
@@ -83,9 +83,9 @@ public class GameManager {
     }
 
     public static void checkPacmanEatingFood(Game game){
-        Pacman pacman = game.pacman;
-        Maze maze = game.maze;
-        Food[][] foods = game.foods;
+        Pacman pacman = game.getPacman();
+        Maze maze = game.getMaze();
+        Food[][] foods = game.getFoods();
         int pacman_x = (pacman.getPosition().getX() + Setting.BLOCK_SIZE/2)/Setting.BLOCK_SIZE;
         int pacman_y = (pacman.getPosition().getY() + Setting.BLOCK_SIZE/2)/Setting.BLOCK_SIZE;
 

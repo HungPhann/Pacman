@@ -21,11 +21,41 @@ import group2.setting.Setting;
 import group2.sound.Sound;
 
 public class Game extends JPanel implements ActionListener{
-    Maze maze;
-    Pacman pacman;
-    Ghost ghosts[];
-    Food[][] foods;
-    Timer timer;
+    private Maze maze;
+    private Pacman pacman;
+    private Ghost ghosts[];
+    private Food[][] foods;
+    private Timer timer;
+
+    public Maze getMaze() {
+        return maze;
+    }
+
+    public void setMaze(Maze maze) {
+        this.maze = maze;
+    }
+
+    public Pacman getPacman() {
+        return pacman;
+    }
+
+    public void setPacman(Pacman pacman) {
+        this.pacman = pacman;
+    }
+
+    public Ghost[] getGhosts() {
+        return ghosts;
+    }
+
+    public void setGhosts(Ghost[] ghosts) {
+        this.ghosts = ghosts;
+    }
+
+    public Food[][] getFoods() {
+        return foods;
+    }
+
+
 
     public Game(){
         addKeyListener(new Game.TAdapter());
