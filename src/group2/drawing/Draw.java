@@ -266,12 +266,29 @@ public class Draw {
     }
 
     public static void drawGhosts(Graphics g, Ghost[] ghosts, JPanel panel){
-        for (int i = 0; i < ghosts.length; i ++)
-            drawGhost(g, ghosts[i], panel);
+
+        drawNormalGhost(g, ghosts[0], panel);
+        drawNormalGhost(g, ghosts[1], panel);
+        drawNormalGhost(g, ghosts[2], panel);
+        drawSmartGhost(g, ghosts[3], panel);
+        drawSmartGhost(g, ghosts[4], panel);
+        drawLazyGhost(g, ghosts[5], panel);
     }
 
-    public static void drawGhost(Graphics g, Ghost ghost, JPanel panel){
-        Image pacman = new ImageIcon("images/my_ghost4.gif").getImage();
+    public static void drawNormalGhost(Graphics g, Ghost ghost, JPanel panel){
+        Image pacman = new ImageIcon("images/normal-ghost.gif").getImage();
+        Graphics2D g2d = (Graphics2D) g;
+        g2d.drawImage(pacman, ghost.getPosition().getX(), ghost.getPosition().getY(), panel);
+    }
+
+    public static void drawLazyGhost(Graphics g, Ghost ghost, JPanel panel){
+        Image pacman = new ImageIcon("images/lazy-ghost.gif").getImage();
+        Graphics2D g2d = (Graphics2D) g;
+        g2d.drawImage(pacman, ghost.getPosition().getX(), ghost.getPosition().getY(), panel);
+    }
+
+    public static void drawSmartGhost(Graphics g, Ghost ghost, JPanel panel){
+        Image pacman = new ImageIcon("images/smart-ghost.gif").getImage();
         Graphics2D g2d = (Graphics2D) g;
         g2d.drawImage(pacman, ghost.getPosition().getX(), ghost.getPosition().getY(), panel);
     }

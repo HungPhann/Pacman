@@ -11,8 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 import group2.drawing.Draw;
-import group2.entity.creature.Ghost;
-import group2.entity.creature.Pacman;
+import group2.entity.creature.*;
 import group2.entity.food.Coin;
 import group2.entity.food.Food;
 import group2.entity.food.Strawberry;
@@ -65,7 +64,7 @@ public class Game extends JPanel implements ActionListener{
 
         this.initAttribute();
         //GameManager.initGame(this);
-        timer = new Timer(40, this);
+        timer = new Timer(60, this);
         timer.start();
         Sound.playBackGroundMusic();
     }
@@ -75,8 +74,14 @@ public class Game extends JPanel implements ActionListener{
         pacman = new Pacman(maze);
         this.initFoods();
         ghosts = new Ghost[Setting.NUMBER_OF_GHOSTS];
-        for(int i = 0; i < Setting.NUMBER_OF_GHOSTS; i++)
-            ghosts[i] = new Ghost(maze);
+        ghosts[0] = new NormalGhost(maze);
+        ghosts[1] = new NormalGhost(maze);
+        ghosts[2] = new NormalGhost(maze);
+        ghosts[3] = new SmartGhost(maze, pacman);
+        ghosts[4] = new SmartGhost(maze, pacman);
+        ghosts[5] = new LazyGhost(maze, pacman);
+
+
     }
 
     private void initFoods(){

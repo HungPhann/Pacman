@@ -11,9 +11,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-public class Ghost extends Creature {
-    private static boolean activated = true;
-    private final static int[] VALID_SPEED = {1, 2, 3, 4};
+public abstract class Ghost extends Creature {
+    protected static boolean activated = true;
+    protected final static int[] VALID_SPEED = {1, 2, 3, 4};
 
     public Ghost(Maze maze){
         this.setSpeed(VALID_SPEED[(int)(Math.random()*VALID_SPEED.length)]);
@@ -33,65 +33,22 @@ public class Ghost extends Creature {
         }
     }
 
-    private boolean[] sence(){
-        boolean[] isClear = new boolean[4]; //0: LEFT, 1: UP, 2: DOWN, 3: RIGHT
-        if(this.checkDown())
-            isClear[2] = true;
-
-        if(this.checkUp())
-            isClear[1] = true;
-
-        if(this.checkRight())
-            isClear[3] = true;
-
-        if(this.checkLeft())
-            isClear[0] = true;
-
-        return isClear;
-    }
+    protected abstract boolean[] sence();
 
     public void move(){
-        if(Ghost.activated){
-
-            boolean[] isClear = this.sence();
-            int previousDirection = this.getDirection().getDirection();
-            int numberOfClearDirection = 0;
-            if (this.getPosition().getX() % Setting.BLOCK_SIZE == 0 &&
-                    this.getPosition().getX() % Setting.BLOCK_SIZE == 0) {
-                for (int i = 0; i < isClear.length; i++) {
-                    if (isClear[i])
-                        numberOfClearDirection++;
-                }
-
-                if (numberOfClearDirection == 1) {
-                    for (int i = 0; i < isClear.length; i++) {
-                        if (isClear[i])
-                            this.getDirection().setDirection(i);
-                    }
-                } else {
-                    while (true) {
-                        int direction = (int) (Math.random() * 4);
-                        if (!isClear[direction] || (direction + previousDirection == 3))
-                            continue;
-                        this.getDirection().setDirection(direction);
-                        break;
-                    }
-                }
-            }
-            switch (this.getDirection().getDirection()){
-                case Direction.LEFT:
-                    this.goLeft();
-                    break;
-                case Direction.RIGHT:
-                    this.goRight();
-                    break;
-                case Direction.UP:
-                    this.goUp();
-                    break;
-                case Direction.DOWN:
-                    this.goDown();
-                    break;
-            }
+        switch (this.getDirection().getDirection()){
+            case Direction.LEFT:
+                this.goLeft();
+                break;
+            case Direction.RIGHT:
+                this.goRight();
+                break;
+            case Direction.UP:
+                this.goUp();
+                break;
+            case Direction.DOWN:
+                this.goDown();
+                break;
         }
     }
 
