@@ -65,7 +65,6 @@ public class Game extends JPanel implements ActionListener{
         setDoubleBuffered(true);
 
         this.initAttribute();
-        //GameManager.initGame(this);
         timer = new Timer(60, this);
         timer.start();
         Sound.playBackGroundMusic();

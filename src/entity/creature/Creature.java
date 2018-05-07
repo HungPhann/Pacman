@@ -102,4 +102,5 @@ public abstract class Creature {
         return true;
     }
 
+    public abstract void initPosition();
 }

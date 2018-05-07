@@ -21,6 +21,7 @@ public abstract class Ghost extends Creature {
         this.setDirection(new Direction());
     }
 
+    @Override
     public void initPosition(){
         for(int i = 0; i < Setting.N_BLOCKS_VERTICAL; i++){
             for(int j = 0; j < Setting.N_BLOCKS_HORIZON; j++){

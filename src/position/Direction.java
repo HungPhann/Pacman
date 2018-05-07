@@ -49,9 +49,11 @@ public class Direction {
     public void setRight(){
         direction = RIGHT;
     }
+
     public void setUp(){
         direction = UP;
     }
+
     public void setDown(){
         direction = DOWN;
     }
@@ -71,5 +73,4 @@ public class Direction {
     public boolean isDown(){
         return (direction == DOWN);
     }
-
 }
