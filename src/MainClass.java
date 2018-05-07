@@ -1,31 +1,20 @@
-import group2.manager.Game;
+import manager.Game;
 
-import java.awt.EventQueue;
 import javax.swing.JFrame;
 
 public class MainClass extends JFrame {
-
     public MainClass() {
-
-        initUI();
-    }
-
-    private void initUI() {
         Game game = new Game();
-        add(game);
+        this.add(game);
 
-        setTitle("Pacman");
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(670, 758);
-        setLocationRelativeTo(null);
-        setVisible(true);
+        this.setTitle("Pacman");
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setSize(670, 758);
+        this.setLocationRelativeTo(null);
+        this.setVisible(true);
     }
 
     public static void main(String[] args) {
-
-        EventQueue.invokeLater(() -> {
-            MainClass ex = new MainClass();
-            ex.setVisible(true);
-        });
+        MainClass ex = new MainClass();
     }
 }
