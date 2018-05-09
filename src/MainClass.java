@@ -1,12 +1,14 @@
-import manager.Game;
+import code.manager.Game;
 
 import javax.swing.JFrame;
 
 public class MainClass extends JFrame {
     public MainClass() {
+        //new Game
         Game game = new Game();
         this.add(game);
 
+        //set up Frame
         this.setTitle("Pacman");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setSize(670, 758);
@@ -15,6 +17,6 @@ public class MainClass extends JFrame {
     }
 
     public static void main(String[] args) {
-        MainClass ex = new MainClass();
+        MainClass main = new MainClass();
     }
 }

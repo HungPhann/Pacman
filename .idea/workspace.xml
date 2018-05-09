@@ -1,23 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Paman_OOP:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b76df1cb-ad48-46ac-84f7-bdda65e3f5ce" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazes/maze.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/drawing/Drawing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/drawing/Drawing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/Creature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/Ghost$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/Ghost$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/Ghost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/Ghost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/manager/Game$TAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/manager/Game$TAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/manager/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/manager/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/position/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/position/Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/setting/Setting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/setting/Setting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoreboard/high_score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard/high_score.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/creature/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/Ghost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/creature/ghost/Ghost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/position/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/position/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/position/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/position/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/drawing/Drawing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/Creature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/Pacman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/Ghost$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/Ghost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/LazyGhost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/NormalGhost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/SmartGhost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/TargetGhost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/food/Coin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/food/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/food/Strawberry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/manager/Game$TAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/manager/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/manager/GameManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/maze/Maze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/position/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/position/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/score/ScoreBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/setting/Setting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/Sound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/playBackGroundMusicThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/playDeadMusicThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/playEatMusicThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/playGhostDiactivatedMusicThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drawing/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/drawing/Drawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/creature/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/Pacman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/Ghost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/Ghost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/LazyGhost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/LazyGhost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/NormalGhost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/NormalGhost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/SmartGhost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/SmartGhost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/TargetGhost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/TargetGhost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/food/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/food/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/food/Strawberry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/food/Strawberry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/7685652a7e4efc35f7cbe9845ade4960a3fe5b18_00.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Ghost2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/GhostScared1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/GhostScared2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/autumn-burgandy-drawing-fall-Favim.com-3614470.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/blue-ghost.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/down1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/down2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/down3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/ghost (1).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/ghost1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/giphy - Copy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/giphy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/image_link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/lazy-ghost.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/left1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/left2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/left3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/my_ghost2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/my_ghost3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/normal-ghost.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pacman.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/right1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/right2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/right3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/smart-ghost.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/strawberry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/tenor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/tumblr_mtfowanuDh1r3nvfwo1_500.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/tumblr_orxmt6yTtW1v5u6b9o1_500.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/up1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/up2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/up3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/manager/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/manager/GameManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maze/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/maze/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mazes/maze1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/position/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/position/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/position/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/position/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/score/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/score/ScoreBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scoreboard/high_score.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setting/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/setting/Setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_beginning.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_chomp.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_death.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_eatfruit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_eatghost.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_extrapac.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_intermission.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sound/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/sound/Sound.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,17 +110,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/manager/Game.java">
+      <file leaf-file-name="ScoreBoard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/code/score/ScoreBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="935">
+              <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
               <folding>
+                <element signature="method#increaseCurrentScore#0;class#ScoreBoard#0" />
+                <element signature="method#updateHighScore#0;class#ScoreBoard#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drawing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/code/drawing/Drawing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#drawMaze#0;class#Drawing#0" />
+                <element signature="method#drawStrawberry#0;class#Drawing#0" />
+                <element signature="method#drawPacman#0;class#Drawing#0" />
+                <element signature="method#drawPacmanLeft#0;class#Drawing#0" />
+                <element signature="method#drawPacmanRight#0;class#Drawing#0" />
+                <element signature="method#drawPacmanUp#0;class#Drawing#0" />
+                <element signature="method#drawPacmanDown#0;class#Drawing#0" />
+                <element signature="method#drawPacmanLeft1#0;class#Drawing#0" />
+                <element signature="method#drawPacmanLeft2#0;class#Drawing#0" />
+                <element signature="method#drawPacmanLeft3#0;class#Drawing#0" />
+                <element signature="method#drawPacmanRight1#0;class#Drawing#0" />
+                <element signature="method#drawPacmanRight2#0;class#Drawing#0" />
+                <element signature="method#drawPacmanRight3#0;class#Drawing#0" />
+                <element signature="method#drawPacmanUp1#0;class#Drawing#0" />
+                <element signature="method#drawPacmanUp2#0;class#Drawing#0" />
+                <element signature="method#drawPacmanUp3#0;class#Drawing#0" />
+                <element signature="method#drawPacmanDown1#0;class#Drawing#0" />
+                <element signature="method#drawPacmanDown2#0;class#Drawing#0" />
+                <element signature="method#drawPacmanDown3#0;class#Drawing#0" />
+                <element signature="method#drawInstruction#0;class#Drawing#0" />
+                <element signature="method#drawScoreBoard#0;class#Drawing#0" />
+                <element signature="method#drawIntroScreen#0;class#Drawing#0" />
+                <element signature="method#drawPauseScreen#0;class#Drawing#0" />
+                <element signature="method#drawGhosts#0;class#Drawing#0" />
+                <element signature="method#drawNormalGhost#0;class#Drawing#0" />
+                <element signature="method#drawLazyGhost#0;class#Drawing#0" />
+                <element signature="method#drawSmartGhost#0;class#Drawing#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/code/manager/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="method#Game#0;class#Game#0" />
                 <element signature="method#initAttribute#0;class#Game#0" />
                 <element signature="method#initFoods#0;class#Game#0" />
                 <element signature="method#play#0;class#Game#0" />
                 <element signature="method#paintComponent#0;class#Game#0" />
                 <element signature="method#doDrawing#0;class#Game#0" />
+                <element signature="class#TAdapter#0;class#Game#0" />
                 <element signature="method#keyPressed#0;class#TAdapter#0;class#Game#0" />
                 <element signature="method#keyReleased#0;class#TAdapter#0;class#Game#0" />
               </folding>
@@ -47,18 +182,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/manager/GameManager.java">
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="238">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding>
-                <element signature="method#checkFinishLevel#0;class#GameManager#0" />
-                <element signature="method#checkDead#0;class#GameManager#0" />
-                <element signature="method#dead#0;class#GameManager#0" />
-                <element signature="method#updateViewAnimation#0;class#GameManager#0" />
-                <element signature="method#checkPacmanEatingFood#0;class#GameManager#0" />
-                <element signature="method#movePacman#0;class#GameManager#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,10 +224,25 @@
       <find>timer</find>
       <find>initPo</find>
       <find>this</find>
+      <find>src/image</find>
+      <find>src/images</find>
+      <find>/data</find>
+      <find>../../data</find>
+      <find>../data</find>
+      <find>src/data</find>
+      <find>data</find>
     </findStrings>
     <replaceStrings>
       <replace>y</replace>
       <replace>x</replace>
+      <replace>src/image</replace>
+      <replace>src/images</replace>
+      <replace>src/data/images</replace>
+      <replace>../../data</replace>
+      <replace>../data</replace>
+      <replace>src/data</replace>
+      <replace>data</replace>
+      <replace>/data</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,7 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Board.java" />
         <option value="$PROJECT_DIR$/src/Pacman.java" />
         <option value="$PROJECT_DIR$/src/com/zetcode/Pacman.java" />
         <option value="$PROJECT_DIR$/src/com/zetcode/Board.java" />
@@ -138,14 +284,24 @@
         <option value="$PROJECT_DIR$/src/group2/entity/creature/ghost/LazyGhost.java" />
         <option value="$PROJECT_DIR$/src/group2/entity/creature/ghost/Ghost.java" />
         <option value="$PROJECT_DIR$/src/group2/manager/Game.java" />
-        <option value="$PROJECT_DIR$/src/drawing/Drawing.java" />
         <option value="$PROJECT_DIR$/src/setting/Setting.java" />
-        <option value="$PROJECT_DIR$/src/MainClass.java" />
         <option value="$PROJECT_DIR$/src/position/Position.java" />
         <option value="$PROJECT_DIR$/src/position/Direction.java" />
         <option value="$PROJECT_DIR$/src/entity/creature/ghost/Ghost.java" />
         <option value="$PROJECT_DIR$/src/entity/creature/Creature.java" />
         <option value="$PROJECT_DIR$/src/manager/Game.java" />
+        <option value="$PROJECT_DIR$/src/score/ScoreBoard.java" />
+        <option value="$PROJECT_DIR$/src/drawing/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/maze/Maze.java" />
+        <option value="$PROJECT_DIR$/src/sound/Sound.java" />
+        <option value="$PROJECT_DIR$/src/manifest.txt" />
+        <option value="$PROJECT_DIR$/out/manifest.txt" />
+        <option value="$PROJECT_DIR$/src/code/maze/Maze.java" />
+        <option value="$PROJECT_DIR$/src/code/sound/Sound.java" />
+        <option value="$PROJECT_DIR$/src/code/score/ScoreBoard.java" />
+        <option value="$PROJECT_DIR$/src/code/manager/Game.java" />
+        <option value="$PROJECT_DIR$/src/code/drawing/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/MainClass.java" />
       </list>
     </option>
   </component>
@@ -168,7 +324,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +334,41 @@
             <path>
               <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="scoreboard" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Paman_OOP_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
@@ -190,20 +379,66 @@
               <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="drawing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="score" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="paman_oop" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/pacman" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2586605" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java workspace\Paman_OOP\out\production\Paman_OOP" />
+      <recent name="D:\Java workspace\Paman_OOP\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -258,6 +493,9 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Paman_OOP.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Paman_OOP_jar/Paman_OOP.jar" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -284,10 +522,12 @@
       <item itemvalue="Application.Maze" />
       <item itemvalue="Application.Pacman" />
       <item itemvalue="Application.MainClass" />
+      <item itemvalue="JAR Application.Paman_OOP.jar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainClass" />
+        <item itemvalue="JAR Application.Paman_OOP.jar" />
         <item itemvalue="Application.Pacman" />
       </list>
     </recent_temporary>
@@ -332,12 +572,17 @@
       <workItem from="1524707900346" duration="8000" />
       <workItem from="1524709460894" duration="648000" />
       <workItem from="1525719194976" duration="3802000" />
-      <workItem from="1525730698824" duration="2179000" />
+      <workItem from="1525730698824" duration="2532000" />
+      <workItem from="1525740711123" duration="2149000" />
+      <workItem from="1525744108889" duration="160000" />
+      <workItem from="1525744651421" duration="7259000" />
+      <workItem from="1525768072784" duration="8439000" />
+      <workItem from="1525855698741" duration="2091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87593000" />
+    <option name="totallyTimeSpent" value="108044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
@@ -353,24 +598,24 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.01793722" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.31988043" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21412125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21412125" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.19133034" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.14200298" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,30 +628,30 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zetcode/Board.java</url>
+          <url />
           <line>114</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zetcode/Board.java</url>
+          <url />
           <line>139</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zetcode/Board.java</url>
+          <url />
           <line>493</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zetcode/Board.java</url>
+          <url />
           <line>226</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/zetcode/Board.java</url>
+          <url />
           <line>379</line>
           <properties class="com.zetcode.Board" method="drawPacmanDown">
             <option name="EMULATED" value="true" />
@@ -414,7 +659,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/zetcode/Board.java</url>
+          <url />
           <line>348</line>
           <properties class="com.zetcode.Board" method="drawPacman">
             <option name="EMULATED" value="true" />
@@ -422,7 +667,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/zetcode/Board.java</url>
+          <url />
           <line>137</line>
           <properties class="com.zetcode.Board" method="playGame">
             <option name="EMULATED" value="true" />
@@ -430,7 +675,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/zetcode/Board.java</url>
+          <url />
           <line>397</line>
           <properties class="com.zetcode.Board" method="drawPacnanLeft">
             <option name="EMULATED" value="true" />
@@ -438,62 +683,11 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/entity/creature/Pacman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zetcode/Board.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zetcode/Pacman.java" />
-    <entry file="file://$PROJECT_DIR$/src/entity/creature/Creature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/manager/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/setting/Setting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/score/ScoreBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/food/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/position/Position.java">
+    <entry file="file://$PROJECT_DIR$/src/code/position/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
@@ -502,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zetcode/Board.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zetcode/Pacman.java" />
-    <entry file="file://$PROJECT_DIR$/src/drawing/Drawing.java">
+    <entry file="file://$PROJECT_DIR$/src/code/drawing/Drawing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
@@ -527,6 +721,7 @@
             <element signature="method#drawPacmanDown1#0;class#Drawing#0" />
             <element signature="method#drawPacmanDown2#0;class#Drawing#0" />
             <element signature="method#drawPacmanDown3#0;class#Drawing#0" />
+            <element signature="method#drawInstruction#0;class#Drawing#0" />
             <element signature="method#drawScoreBoard#0;class#Drawing#0" />
             <element signature="method#drawIntroScreen#0;class#Drawing#0" />
             <element signature="method#drawPauseScreen#0;class#Drawing#0" />
@@ -545,28 +740,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manager/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/code/manager/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/setting/Setting.java">
+    <entry file="file://$PROJECT_DIR$/src/code/setting/Setting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/score/ScoreBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/code/score/ScoreBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/position/Position.java">
+    <entry file="file://$PROJECT_DIR$/src/code/position/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
@@ -575,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zetcode/Board.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zetcode/Pacman.java" />
-    <entry file="file://$PROJECT_DIR$/src/entity/food/Food.java">
+    <entry file="file://$PROJECT_DIR$/src/code/entity/food/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
@@ -593,21 +788,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mazes/maze.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mazes/maze.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/zetcode/Board.java" />
-    <entry file="file://$PROJECT_DIR$/scoreboard/high_score.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scoreboard/high_score.txt" />
     <entry file="uml://JAVA/group2">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -638,70 +821,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mazes/maze1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sound/Sound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/setting/Setting.java">
+    <entry file="file://$PROJECT_DIR$/src/mazes/maze1.txt" />
+    <entry file="file://$PROJECT_DIR$/src/code/setting/Setting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/score/ScoreBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="method#increaseCurrentScore#0;class#ScoreBoard#0" />
-            <element signature="method#updateHighScore#0;class#ScoreBoard#0" />
-            <element signature="method#loadHighScore#0;class#ScoreBoard#0" />
-            <element signature="method#storeHighScore#0;class#ScoreBoard#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/position/Position.java">
+    <entry file="file://$PROJECT_DIR$/src/code/position/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/position/Direction.java">
+    <entry file="file://$PROJECT_DIR$/src/code/position/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/food/Coin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/food/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/food/Strawberry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/creature/Pacman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="method#setDirection#0;class#Direction#0" />
+            <element signature="method#initPosition#0;class#Pacman#0" />
+            <element signature="method#eat#0;class#Pacman#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maze/Maze.java">
+    <entry file="file://$PROJECT_DIR$/src/code/entity/creature/Creature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="490">
+          <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/creature/ghost/SmartGhost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/creature/ghost/TargetGhost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/creature/ghost/Ghost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/creature/ghost/LazyGhost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/creature/ghost/NormalGhost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/manager/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="method#checkFinishLevel#0;class#GameManager#0" />
+            <element signature="method#checkDead#0;class#GameManager#0" />
+            <element signature="method#dead#0;class#GameManager#0" />
+            <element signature="method#updateViewAnimation#0;class#GameManager#0" />
+            <element signature="method#checkPacmanEatingFood#0;class#GameManager#0" />
+            <element signature="method#movePacman#0;class#GameManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Paman_OOP/code/score/ScoreBoard.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manifest.txt" />
+    <entry file="file://$PROJECT_DIR$/out/production/Paman_OOP/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Paman_OOP/manifest.txt" />
+    <entry file="file://$PROJECT_DIR$/out/production/Paman_OOP/code/drawing/Drawing.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="152" column="42" lean-forward="true" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Paman_OOP/code/sound/Sound.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Paman_OOP/code/sound/playBackGroundMusicThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/Paman_OOP_jar/code/maze/Maze.class" />
+    <entry file="file://$PROJECT_DIR$/src/code/sound/Sound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/maze/Maze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="method#Maze#0;class#Maze#0" />
             <element signature="method#checkVisibleVertical#0;class#Maze#0" />
@@ -714,10 +1000,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/drawing/Drawing.java">
+    <entry file="file://$PROJECT_DIR$/src/code/score/ScoreBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="270" column="75" selection-start-line="270" selection-start-column="75" selection-end-line="270" selection-end-column="75" />
+        <state relative-caret-position="935">
+          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+          <folding>
+            <element signature="method#increaseCurrentScore#0;class#ScoreBoard#0" />
+            <element signature="method#updateHighScore#0;class#ScoreBoard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/drawing/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#drawMaze#0;class#Drawing#0" />
@@ -739,6 +1036,7 @@
             <element signature="method#drawPacmanDown1#0;class#Drawing#0" />
             <element signature="method#drawPacmanDown2#0;class#Drawing#0" />
             <element signature="method#drawPacmanDown3#0;class#Drawing#0" />
+            <element signature="method#drawInstruction#0;class#Drawing#0" />
             <element signature="method#drawScoreBoard#0;class#Drawing#0" />
             <element signature="method#drawIntroScreen#0;class#Drawing#0" />
             <element signature="method#drawPauseScreen#0;class#Drawing#0" />
@@ -750,137 +1048,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/food/Coin.java">
+    <entry file="file://$PROJECT_DIR$/src/code/manager/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="408">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
-            <element signature="e#73#74#0" expanded="true" />
-            <element signature="e#106#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/food/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/food/Strawberry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/creature/Pacman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="method#initPosition#0;class#Pacman#0" />
-            <element signature="method#eat#0;class#Pacman#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/creature/Creature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
-          <folding>
-            <element signature="method#checkLeft#0;class#Creature#0" />
-            <element signature="method#checkRight#0;class#Creature#0" />
-            <element signature="method#checkUp#0;class#Creature#0" />
-            <element signature="method#checkDown#0;class#Creature#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/creature/ghost/SmartGhost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sense#0;class#SmartGhost#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/creature/ghost/TargetGhost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="method#TargetGhost#0;class#TargetGhost#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/creature/ghost/Ghost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="method#initPosition#0;class#Ghost#0" />
-            <element signature="method#decideDirection#0;class#Ghost#0" />
-            <element signature="method#move#0;class#Ghost#0" />
-            <element signature="method#deactivate#0;class#Ghost#0" />
-            <element signature="class#3149:3251" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/creature/ghost/LazyGhost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="method#sense#0;class#LazyGhost#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/creature/ghost/NormalGhost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="method#sense#0;class#NormalGhost#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/manager/GameManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="method#checkFinishLevel#0;class#GameManager#0" />
-            <element signature="method#checkDead#0;class#GameManager#0" />
-            <element signature="method#dead#0;class#GameManager#0" />
-            <element signature="method#updateViewAnimation#0;class#GameManager#0" />
-            <element signature="method#checkPacmanEatingFood#0;class#GameManager#0" />
-            <element signature="method#movePacman#0;class#GameManager#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/manager/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
+            <element signature="method#Game#0;class#Game#0" />
             <element signature="method#initAttribute#0;class#Game#0" />
             <element signature="method#initFoods#0;class#Game#0" />
             <element signature="method#play#0;class#Game#0" />
             <element signature="method#paintComponent#0;class#Game#0" />
             <element signature="method#doDrawing#0;class#Game#0" />
+            <element signature="class#TAdapter#0;class#Game#0" />
             <element signature="method#keyPressed#0;class#TAdapter#0;class#Game#0" />
             <element signature="method#keyReleased#0;class#TAdapter#0;class#Game#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,7 +1081,79 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Paman_OOP:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2586605" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Paman_OOP</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
