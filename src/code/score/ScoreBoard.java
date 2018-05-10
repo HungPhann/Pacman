@@ -32,8 +32,6 @@ public class ScoreBoard {
 
     public static void loadHighScore(){
         try {
-            //File file = new File("high_score.dat");
-            //FileInputStream inputStream = new FileInputStream(file);
             DataInputStream in = new DataInputStream(new FileInputStream("high_score.dat"));
             ScoreBoard.highScore = in.readInt();
             in.close();
@@ -42,7 +40,7 @@ public class ScoreBoard {
             try {
                 File file = new File("high_score.dat");
                 file.createNewFile();
-                file.setWritable(false, true);
+                file.setWritable(true, true);
             }
             catch(IOException e){
                 ex.printStackTrace();
@@ -57,7 +55,6 @@ public class ScoreBoard {
 
     public static void storeHighScore(){
         try{
-            //FileOutputStream out = new FileOutputStream("high_score.dat");
             DataOutputStream out = new DataOutputStream(new FileOutputStream("high_score.dat"));
             out.writeInt(highScore);
             out.flush();
@@ -67,8 +64,7 @@ public class ScoreBoard {
             try {
                 File file = new File("high_score.dat");
                 file.createNewFile();
-                file.setWritable(false, true);
-                //FileOutputStream out = new FileOutputStream(file);
+                file.setWritable(true, true);
                 DataOutputStream out = new DataOutputStream(new FileOutputStream("high_score.dat"));
                 out.writeInt(highScore);
                 out.flush();
@@ -81,20 +77,6 @@ public class ScoreBoard {
         catch (IOException ex){
             ex.printStackTrace();
         }
-
-        /*
-        try {
-            Writer writer = new FileWriter("data/scoreboard/high_score.txt");
-            writer.write(Integer.toString(ScoreBoard.getHighScore()));
-            writer.close();
-        }
-        catch (FileNotFoundException ex){
-            ex.printStackTrace();
-        }
-        catch (IOException ex){
-            ex.printStackTrace();
-        }
-        */
     }
 
 }

@@ -7,8 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-import javax.swing.JPanel;
-import javax.swing.Timer;
+import javax.swing.*;
 
 import code.drawing.Drawing;
 import code.entity.creature.*;
@@ -29,6 +28,7 @@ public class Game extends JPanel implements ActionListener{
     private Ghost ghosts[];
     private Food[][] foods;
     private Timer timer;
+    private JFrame frame;
 
     public Maze getMaze() {
         return maze;
@@ -63,6 +63,13 @@ public class Game extends JPanel implements ActionListener{
         setFocusable(true);
         setBackground(Color.black);
         setDoubleBuffered(true);
+        this.frame = new JFrame();
+        frame.setTitle("Pacman");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(670, 758);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+        frame.add(this);
 
         this.initAttribute();
         timer = new Timer(60, this);

@@ -8,97 +8,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b76df1cb-ad48-46ac-84f7-bdda65e3f5ce" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazes/maze.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Paman_OOP_jar/Paman_OOP.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Paman_OOP_jar/Paman_OOP.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Paman_OOP_jar/high_score.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Paman_OOP_jar/high_score.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/drawing/Drawing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/Creature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/Pacman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/Ghost$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/Ghost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/LazyGhost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/NormalGhost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/SmartGhost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/creature/ghost/TargetGhost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/food/Coin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/food/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/entity/food/Strawberry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/manager/Game$TAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/manager/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/manager/GameManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/maze/Maze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/position/Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/position/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/score/ScoreBoard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/setting/Setting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/Sound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/playBackGroundMusicThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/playDeadMusicThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/playEatMusicThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/sound/playGhostDiactivatedMusicThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/code/manager/Game$TAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/code/manager/Game$TAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/code/manager/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/code/manager/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/code/score/ScoreBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Paman_OOP/code/score/ScoreBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Paman_OOP/data/scoreboard/high_score.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/drawing/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/drawing/Drawing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/Pacman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/Ghost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/Ghost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/LazyGhost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/LazyGhost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/NormalGhost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/NormalGhost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/SmartGhost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/SmartGhost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/creature/ghost/TargetGhost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/creature/ghost/TargetGhost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/food/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/food/Coin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/food/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/food/Strawberry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/entity/food/Strawberry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/7685652a7e4efc35f7cbe9845ade4960a3fe5b18_00.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Ghost2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/GhostScared1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/GhostScared2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/autumn-burgandy-drawing-fall-Favim.com-3614470.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/blue-ghost.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/down1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/down2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/down3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/ghost (1).gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/ghost1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/giphy - Copy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/giphy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/image_link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/images.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/lazy-ghost.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/left1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/left2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/left3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/my_ghost2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/my_ghost3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/normal-ghost.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pacman.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/right1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/right2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/right3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/smart-ghost.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/strawberry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/tenor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/tumblr_mtfowanuDh1r3nvfwo1_500.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/tumblr_orxmt6yTtW1v5u6b9o1_500.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/up1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/up2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/up3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/manager/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/manager/GameManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maze/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/maze/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazes/maze1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/position/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/position/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/position/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/position/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/score/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/score/ScoreBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scoreboard/high_score.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/setting/Setting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_beginning.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_chomp.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_death.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_eatfruit.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_eatghost.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_extrapac.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sound-source/pacman_intermission.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sound/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/sound/Sound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/manager/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/manager/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/score/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/score/ScoreBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/scoreboard/high_score.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,65 +30,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ScoreBoard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/code/score/ScoreBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-              <folding>
-                <element signature="method#increaseCurrentScore#0;class#ScoreBoard#0" />
-                <element signature="method#updateHighScore#0;class#ScoreBoard#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Drawing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/code/drawing/Drawing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#drawMaze#0;class#Drawing#0" />
-                <element signature="method#drawStrawberry#0;class#Drawing#0" />
-                <element signature="method#drawPacman#0;class#Drawing#0" />
-                <element signature="method#drawPacmanLeft#0;class#Drawing#0" />
-                <element signature="method#drawPacmanRight#0;class#Drawing#0" />
-                <element signature="method#drawPacmanUp#0;class#Drawing#0" />
-                <element signature="method#drawPacmanDown#0;class#Drawing#0" />
-                <element signature="method#drawPacmanLeft1#0;class#Drawing#0" />
-                <element signature="method#drawPacmanLeft2#0;class#Drawing#0" />
-                <element signature="method#drawPacmanLeft3#0;class#Drawing#0" />
-                <element signature="method#drawPacmanRight1#0;class#Drawing#0" />
-                <element signature="method#drawPacmanRight2#0;class#Drawing#0" />
-                <element signature="method#drawPacmanRight3#0;class#Drawing#0" />
-                <element signature="method#drawPacmanUp1#0;class#Drawing#0" />
-                <element signature="method#drawPacmanUp2#0;class#Drawing#0" />
-                <element signature="method#drawPacmanUp3#0;class#Drawing#0" />
-                <element signature="method#drawPacmanDown1#0;class#Drawing#0" />
-                <element signature="method#drawPacmanDown2#0;class#Drawing#0" />
-                <element signature="method#drawPacmanDown3#0;class#Drawing#0" />
-                <element signature="method#drawInstruction#0;class#Drawing#0" />
-                <element signature="method#drawScoreBoard#0;class#Drawing#0" />
-                <element signature="method#drawIntroScreen#0;class#Drawing#0" />
-                <element signature="method#drawPauseScreen#0;class#Drawing#0" />
-                <element signature="method#drawGhosts#0;class#Drawing#0" />
-                <element signature="method#drawNormalGhost#0;class#Drawing#0" />
-                <element signature="method#drawLazyGhost#0;class#Drawing#0" />
-                <element signature="method#drawSmartGhost#0;class#Drawing#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/code/manager/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="114">
+              <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding>
-                <element signature="method#Game#0;class#Game#0" />
+                <element signature="imports" expanded="true" />
                 <element signature="method#initAttribute#0;class#Game#0" />
                 <element signature="method#initFoods#0;class#Game#0" />
                 <element signature="method#play#0;class#Game#0" />
@@ -182,15 +50,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -298,10 +165,10 @@
         <option value="$PROJECT_DIR$/out/manifest.txt" />
         <option value="$PROJECT_DIR$/src/code/maze/Maze.java" />
         <option value="$PROJECT_DIR$/src/code/sound/Sound.java" />
-        <option value="$PROJECT_DIR$/src/code/score/ScoreBoard.java" />
-        <option value="$PROJECT_DIR$/src/code/manager/Game.java" />
         <option value="$PROJECT_DIR$/src/code/drawing/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/code/score/ScoreBoard.java" />
         <option value="$PROJECT_DIR$/src/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/code/manager/Game.java" />
       </list>
     </option>
   </component>
@@ -322,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -339,40 +205,6 @@
             <path>
               <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Paman_OOP_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,13 +212,6 @@
               <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="drawing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
@@ -394,13 +219,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Paman_OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="score" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Paman_OOP" type="b2602c69:ProjectViewProjectNode" />
@@ -417,6 +235,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -427,12 +246,13 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="paman_oop" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/pacman" />
+    <property name="last_opened_file_path" value="D:/Ebook/Term 6/OOP Lab/Report" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2586605" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -577,12 +397,14 @@
       <workItem from="1525744108889" duration="160000" />
       <workItem from="1525744651421" duration="7259000" />
       <workItem from="1525768072784" duration="8439000" />
-      <workItem from="1525855698741" duration="2091000" />
+      <workItem from="1525855698741" duration="8539000" />
+      <workItem from="1525882541527" duration="156000" />
+      <workItem from="1525918955234" duration="532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108044000" />
+    <option name="totallyTimeSpent" value="115180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
@@ -599,10 +421,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.31988043" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.020926757" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21412125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21412125" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -687,66 +509,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/code/position/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zetcode/Board.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zetcode/Pacman.java" />
-    <entry file="file://$PROJECT_DIR$/src/code/drawing/Drawing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#drawMaze#0;class#Drawing#0" />
-            <element signature="method#drawStrawberry#0;class#Drawing#0" />
-            <element signature="method#drawPacman#0;class#Drawing#0" />
-            <element signature="method#drawPacmanLeft#0;class#Drawing#0" />
-            <element signature="method#drawPacmanRight#0;class#Drawing#0" />
-            <element signature="method#drawPacmanUp#0;class#Drawing#0" />
-            <element signature="method#drawPacmanDown#0;class#Drawing#0" />
-            <element signature="method#drawPacmanLeft1#0;class#Drawing#0" />
-            <element signature="method#drawPacmanLeft2#0;class#Drawing#0" />
-            <element signature="method#drawPacmanLeft3#0;class#Drawing#0" />
-            <element signature="method#drawPacmanRight1#0;class#Drawing#0" />
-            <element signature="method#drawPacmanRight2#0;class#Drawing#0" />
-            <element signature="method#drawPacmanRight3#0;class#Drawing#0" />
-            <element signature="method#drawPacmanUp1#0;class#Drawing#0" />
-            <element signature="method#drawPacmanUp2#0;class#Drawing#0" />
-            <element signature="method#drawPacmanUp3#0;class#Drawing#0" />
-            <element signature="method#drawPacmanDown1#0;class#Drawing#0" />
-            <element signature="method#drawPacmanDown2#0;class#Drawing#0" />
-            <element signature="method#drawPacmanDown3#0;class#Drawing#0" />
-            <element signature="method#drawInstruction#0;class#Drawing#0" />
-            <element signature="method#drawScoreBoard#0;class#Drawing#0" />
-            <element signature="method#drawIntroScreen#0;class#Drawing#0" />
-            <element signature="method#drawPauseScreen#0;class#Drawing#0" />
-            <element signature="method#drawGhosts#0;class#Drawing#0" />
-            <element signature="method#drawNormalGhost#0;class#Drawing#0" />
-            <element signature="method#drawLazyGhost#0;class#Drawing#0" />
-            <element signature="method#drawSmartGhost#0;class#Drawing#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/manager/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/code/setting/Setting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -836,20 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/position/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/entity/food/Coin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/code/entity/food/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -868,10 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="method#initPosition#0;class#Pacman#0" />
-            <element signature="method#eat#0;class#Pacman#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,26 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="method#Maze#0;class#Maze#0" />
-            <element signature="method#checkVisibleVertical#0;class#Maze#0" />
-            <element signature="method#checkVisibleHorizontal#0;class#Maze#0" />
-            <element signature="method#isVisibleLeft#0;class#Maze#0" />
-            <element signature="method#isVisibleRight#0;class#Maze#0" />
-            <element signature="method#isVisibleUp#0;class#Maze#0" />
-            <element signature="method#isVisibleDown#0;class#Maze#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/score/ScoreBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-          <folding>
-            <element signature="method#increaseCurrentScore#0;class#ScoreBoard#0" />
-            <element signature="method#updateHighScore#0;class#ScoreBoard#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,12 +772,198 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/code.entity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>code.entity</OriginalElement>
+          <nodes>
+            <node x="" y="">code.entity.food</node>
+            <node x="" y="">code.entity.creature</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="61.0" y="52.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/code.drawing">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>code.drawing</OriginalElement>
+          <nodes>
+            <node x="" y="">code.drawing.Drawing</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="46.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/code.manager">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>code.manager</OriginalElement>
+          <nodes>
+            <node x="" y="">code.manager.GameManager</node>
+            <node x="" y="">code.manager.Game</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="52.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/code.entity.creature">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>code.entity.creature</OriginalElement>
+          <nodes>
+            <node x="" y="">code.entity.creature.ghost.LazyGhost</node>
+            <node x="" y="">code.entity.creature.Pacman</node>
+            <node x="" y="">code.entity.creature.ghost.SmartGhost</node>
+            <node x="" y="">code.entity.creature.ghost.TargetGhost</node>
+            <node x="" y="">code.entity.creature.Creature</node>
+            <node x="" y="">code.entity.creature.ghost.Ghost</node>
+            <node x="" y="">code.entity.creature.ghost.NormalGhost</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="110.0" y="785.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/code.entity.food">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>code.entity.food</OriginalElement>
+          <nodes>
+            <node x="188.0" y="168.0">code.entity.food.Coin</node>
+            <node x="0.0" y="168.0">code.entity.food.Strawberry</node>
+            <node x="94.0" y="0.0">code.entity.food.Food</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="code.entity.food.Strawberry" target="code.entity.food.Food">
+              <point x="0.0" y="-25.5" />
+              <point x="84.0" y="143.0" />
+              <point x="136.0" y="143.0" />
+              <point x="-42.0" y="59.0" />
+            </edge>
+            <edge source="code.entity.food.Coin" target="code.entity.food.Food">
+              <point x="0.0" y="-25.5" />
+              <point x="272.0" y="143.0" />
+              <point x="220.0" y="143.0" />
+              <point x="42.0" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-173.0" y="-11.0" />
+          <SelectedNodes>
+            <node>code.entity.food.Coin</node>
+            <node>code.entity.food.Strawberry</node>
+            <node>code.entity.food.Food</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/code">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>code</OriginalElement>
+          <nodes>
+            <node x="" y="">code.manager.Game</node>
+            <node x="" y="">code.sound.Sound</node>
+            <node x="" y="">code.maze.Maze</node>
+            <node x="" y="">code.drawing.Drawing</node>
+            <node x="" y="">code.position.Direction</node>
+            <node x="" y="">code.score.ScoreBoard</node>
+            <node x="" y="">code.position.Position</node>
+            <node x="" y="">code.manager.Game.TAdapter</node>
+            <node x="" y="">code.manager.GameManager</node>
+            <node x="" y="">code.setting.Setting</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6999999999999996" x="636.0" y="385.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/entity/food/Coin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/position/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/score/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/code/manager/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="114">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding>
-            <element signature="method#Game#0;class#Game#0" />
+            <element signature="imports" expanded="true" />
             <element signature="method#initAttribute#0;class#Game#0" />
             <element signature="method#initFoods#0;class#Game#0" />
             <element signature="method#play#0;class#Game#0" />
@@ -1062,18 +972,6 @@
             <element signature="class#TAdapter#0;class#Game#0" />
             <element signature="method#keyPressed#0;class#TAdapter#0;class#Game#0" />
             <element signature="method#keyReleased#0;class#TAdapter#0;class#Game#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
           </folding>
         </state>
       </provider>
